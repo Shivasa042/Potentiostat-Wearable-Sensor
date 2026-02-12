@@ -1,0 +1,76 @@
+# PlatformIO
+.pio/
+.pio
+.pioenvs/
+.piolibdeps/
+.platformio/
+build/
+
+# Visual Studio Code
+.vscode/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+*.code-workspace
+
+# IDEs
+.idea/
+.eclipse/
+*.swp
+*.swo
+*~
+.settings/
+
+# OS Files
+.DS_Store
+Thumbs.db
+.Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.elf
+*.bin.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# Dependencies
+lib/*/lib/
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Sensitive data
+*.key
+*.pem
+secrets.h
+config.local.h
+
+# Gradle (Android App)
+App/.gradle/
+App/build/
+App/local.properties
+App/*.iml
+
+# Hardware CAD backup files
+Hardware/*.bak
+Hardware/*.kicad_pcb-bak
